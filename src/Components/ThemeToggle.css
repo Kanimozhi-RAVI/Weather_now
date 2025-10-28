@@ -1,0 +1,31 @@
+.theme-toggle {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+  z-index: 10;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  padding: 10px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(15deg);
+}
+
+.icons {
+  font-size: 1.8rem;
+}
+
+.sun {
+  color: #ffd600;
+  filter: drop-shadow(0 0 10px #ffb400);
+}
+
+.moon {
+  color: #d0e1ff;
+  filter: drop-shadow(0 0 10px #4a6aff);
+}

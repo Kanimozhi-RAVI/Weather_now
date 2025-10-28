@@ -1,0 +1,71 @@
+.anim-bg {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.clouds {
+  position: absolute;
+  width: 100%;
+  top: 15%;
+  animation: cloudFloat 60s linear infinite;
+}
+
+.cloud {
+  width: 250px;
+  opacity: 0.5;
+  position: absolute;
+  animation: cloudDrift 60s linear infinite;
+}
+
+.cloud.delay {
+  animation-delay: 15s;
+  top: 25%;
+  left: 50%;
+}
+
+@keyframes cloudDrift {
+  from { transform: translateX(-300px); }
+  to { transform: translateX(100vw); }
+}
+
+.rain .drop {
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  background: rgba(255,255,255,0.5);
+  top: -20px;
+  left: calc(100% * var(--i));
+  animation: dropFall 1s linear infinite;
+}
+
+@keyframes dropFall {
+  to {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
+
+.clouds {
+  background: url('./assests/clouds.svg') repeat-x;
+  background-size: contain;
+  animation: moveClouds 60s linear infinite;
+}
+
+@keyframes moveClouds {
+  from { background-position-x: 0; }
+  to { background-position-x: -1000px; }
+}
+.cloudy-bg {
+  background: url('./assests/cloudy..svg') repeat-x;
+  background-size: cover;
+  opacity: 0.8;
+  animation: cloudyDrift 90s linear infinite;
+}
+
+@keyframes cloudyDrift {
+  from { background-position-x: 0; }
+  to { background-position-x: -1500px; }
+}
