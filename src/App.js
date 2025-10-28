@@ -69,7 +69,6 @@ const App = () => {
   <div className={`app ${dark ? "dark" : "light"} ${weather ? condition : ""}`}>
     <AnimBackground condition={condition} />
     <ThemeToggle dark={dark} setDark={setDark} />
-
     <motion.div
       className="app-overlay"
       initial={{ opacity: 0, y: 30 }}
