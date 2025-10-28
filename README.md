@@ -76,12 +76,14 @@ ChatGPT was used to plan folder structure, write API integration, and refine REA
 
 ## 🌍 Level 2 — Working Application
 The app is deployed live and can be accessed here:  
-👉 **Live Demo:** [https://weather-now.vercel.app] https://weather-now-git-main-kanimozhi-ravis-projects.vercel.app
+**Live Demo:** [Weather Now on Vercel](https://weather-now-git-main-kanimozhi-ravis-projects.vercel.app)
+
 
 ---
 
 ## 💾 Level 3 — Code Sharing
-**Source Code:**  [https://github.com/<Kanimozhi>/weather-now] https://github.com/Kanimozhi-RAVI/Weather_now
+**Source Code:** [GitHub Repository](https://github.com/Kanimozhi-RAVI/Weather_now)
+
 
 ---
 
